@@ -1,0 +1,8 @@
+# cleanup test fixture - harmless
+name: fixture
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo fixture
